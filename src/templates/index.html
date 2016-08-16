@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" type="text/css" href="styles.css">
+{% endblock %}
+
+{% block body %}
+<div id="app">
+    <div class="header">
+        <h1>Escape Velocity</h1>
+    </div>
+    <canvas>
+        Your browser does not support HTML5 canvas :(
+    </canvas>
+    <div class="controls">
+        <button class="button">GO</button>
+    </div>
+    <div class="footer">
+        <span>...</span>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="bundle.js"></script>
+{% endblock %}
